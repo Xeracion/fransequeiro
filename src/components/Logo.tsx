@@ -11,7 +11,7 @@ export function Logo({ className }: { className?: string }) {
         x="0"
         y="90"
         fontFamily="Arial, Helvetica, sans-serif"
-        fontWeight="800"
+        fontWeight="500"
         fontSize="100"
         letterSpacing="-2"
       >
@@ -21,7 +21,7 @@ export function Logo({ className }: { className?: string }) {
         x="0"
         y="200"
         fontFamily="Arial, Helvetica, sans-serif"
-        fontWeight="500"
+        fontWeight="800"
         fontSize="88"
         letterSpacing="2"
       >
