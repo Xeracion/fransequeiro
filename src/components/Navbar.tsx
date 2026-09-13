@@ -37,7 +37,7 @@ export function Navbar() {
         }`}
       >
         <a href="#top" aria-label="Fran Sequeiro" className="text-[var(--foreground)]">
-          <Logo className="h-6 w-auto" />
+          <Logo className="h-[34px] w-auto" />
         </a>
 
         <div className="hidden items-center gap-6 md:flex">
