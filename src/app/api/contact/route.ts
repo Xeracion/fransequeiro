@@ -15,12 +15,30 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid payload" }, { status: 400 });
   }
 
-  // TODO: conectar con un proveedor de email (Resend, SendGrid, etc.)
-  console.log("Nuevo mensaje de contacto:", {
-    name: body.name,
-    email: body.email,
-    message: body.message,
-  });
+  const scriptUrl = process.env.GOOGLE_SHEETS_WEBHOOK_URL;
+
+  if (scriptUrl) {
+    const res = await fetch(scriptUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        name: body.name,
+        email: body.email,
+        message: body.message,
+      }),
+    });
+
+    if (!res.ok) {
+      console.error("Google Sheets webhook error:", res.status, await res.text().catch(() => ""));
+      return NextResponse.json({ error: "Webhook failed" }, { status: 502 });
+    }
+  } else {
+    console.log("Nuevo mensaje de contacto (sin webhook configurado):", {
+      name: body.name,
+      email: body.email,
+      message: body.message,
+    });
+  }
 
   return NextResponse.json({ ok: true });
 }
