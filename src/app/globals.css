@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafafa;
+  --surface: #ffffff;
+  --surface-2: #f4f4f5;
+  --foreground: #18181b;
+  --muted: #52525b;
+  --border: #e4e4e7;
+  --accent: #7c9885;
+  --accent-2: #b08d57;
+  --accent-foreground: #0a0a0a;
+  --grain-opacity: 0.03;
+}
+
+[data-theme="dark"] {
+  --background: #09090b;
+  --surface: #0f0f12;
+  --surface-2: #17171b;
+  --foreground: #f4f4f5;
+  --muted: #a1a1aa;
+  --border: #26262b;
+  --accent: #8fb99b;
+  --accent-2: #d4af6a;
+  --accent-foreground: #f4f4f5;
+  --grain-opacity: 0.05;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-fraunces);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.grain-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  opacity: var(--grain-opacity);
+  mix-blend-mode: overlay;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-foreground);
+}
