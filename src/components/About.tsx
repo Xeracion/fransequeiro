@@ -11,33 +11,32 @@ export function About() {
 
       <RevealOnScroll delay={0.1} className="mt-6">
         <h2 className="text-balance font-[family-name:var(--font-display)] text-2xl leading-snug font-light sm:text-3xl md:text-4xl">
-          Llevo más de una década inventando excusas para juntar a gente de
-          distintos países y ponerla a hacer cosas que importan.
+          Llevo diez años juntando a gente de países distintos. Para que
+          hagan cosas que de verdad importan.
         </h2>
       </RevealOnScroll>
 
       <RevealOnScroll delay={0.2} className="mt-8 space-y-5 text-[var(--muted)]">
         <p>
-          En realidad se llama gestión de proyectos europeos, pero lo que
-          hago es diseñar experiencias que cambian perspectivas: más de 15
-          proyectos internacionales sobre medio ambiente, liderazgo
-          comunitario, oratoria, storytelling, migración y activismo juvenil.
+          A esto se le llama gestión de proyectos europeos. Yo lo llamo
+          diseñar experiencias que cambian la forma de ver el mundo. Más de
+          15 proyectos internacionales. Medio ambiente, liderazgo
+          comunitario, oratoria, storytelling, migración, activismo juvenil.
         </p>
         <p>
-          Trabajo desde Ferrol, en el borde atlántico de Galicia, dirigiendo{" "}
-          <strong className="text-[var(--foreground)]">Xeración</strong>, una
-          organización que demuestra que no hace falta estar en una capital
-          para mover Europa. Educación no formal, comunicación intercultural
-          y mucha logística creativa: eso es lo mío.
+          Trabajo desde Ferrol, en el borde atlántico de Galicia. Sin oficina
+          en ninguna capital dirijo{" "}
+          <strong className="text-[var(--foreground)]">Xeración</strong>, y
+          cada proyecto demuestra lo mismo: Europa también se mueve desde
+          aquí. Educación no formal, comunicación intercultural y mucha
+          logística creativa. Así de simple.
         </p>
         <p>
-          Me defino como <em>dreams engineer</em>: alguien que toma la
-          intuición, el propósito y las ganas de un equipo, y las convierte en
-          proyectos, alianzas y resultados concretos. Y como{" "}
-          <em>smile hunter</em>: porque para mí el éxito de un proyecto se
-          mide también en cuántas sonrisas honestas deja por el camino. Si
-          crees que lo local y lo internacional pueden ir de la mano,
-          hablemos.
+          Me llamo a mí mismo <em>dreams engineer</em>: cojo la intuición, el
+          propósito y las ganas de un equipo, y las convierto en proyectos
+          reales. Y <em>smile hunter</em>, porque un proyecto solo funciona
+          si deja sonrisas de verdad por el camino. ¿Crees que lo local y lo
+          internacional pueden ir de la mano? Hablemos.
         </p>
       </RevealOnScroll>
     </section>

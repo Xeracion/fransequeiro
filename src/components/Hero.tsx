@@ -41,18 +41,18 @@ export function Hero() {
           variants={item}
           className="text-balance font-[family-name:var(--font-display)] text-4xl leading-[1.08] font-light tracking-tight sm:text-6xl md:text-7xl"
         >
-          Gestor de proyectos europeos
+          Muevo proyectos
           <br />
-          <span className="italic text-[var(--accent)]">e ingeniero de sueños</span>
+          <span className="italic text-[var(--accent)]">que mueven Europa</span>
         </motion.h1>
 
         <motion.p
           variants={item}
           className="mt-6 max-w-xl text-balance text-base text-[var(--muted)] sm:text-lg"
         >
-          CEO de Xeración, en Ferrol. Diseño proyectos internacionales de
-          movilidad juvenil y regeneración rural que conectan lo local con lo
-          europeo.
+          Soy Fran, CEO de Xeración. Trabajo desde Ferrol, no desde una
+          capital, y eso no me frena para nada: movilidad juvenil,
+          regeneración rural, proyectos que sí llegan a pasar.
         </motion.p>
 
         <motion.div
@@ -63,7 +63,7 @@ export function Hero() {
             href="#contacto"
             className="rounded-full bg-[var(--foreground)] px-7 py-3 text-sm font-medium text-[var(--background)] transition-transform hover:scale-[1.03] active:scale-[0.98]"
           >
-            Empecemos una conversación
+            Hablamos
           </a>
           <a
             href="https://www.linkedin.com/in/fransequeiro/"

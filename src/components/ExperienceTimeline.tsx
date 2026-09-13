@@ -9,7 +9,7 @@ const milestones = [
     role: "CEO",
     org: "Xeración · Ferrol",
     description:
-      "Detectar una idea con potencial de mejorar el entorno, validarla con el equipo, adaptarla a la realidad local, tejer las alianzas y recursos necesarios, y ponerla en práctica. Más de 15 proyectos europeos sobre medio ambiente, liderazgo comunitario, oratoria, storytelling, migración y activismo juvenil.",
+      "Encontrar una idea buena. Validarla con el equipo. Adaptarla a lo que hay aquí. Buscar las alianzas y los recursos. Ponerla en marcha. Repetir. Más de 15 proyectos europeos: medio ambiente, liderazgo comunitario, oratoria, storytelling, migración, activismo juvenil.",
   },
   {
     period: "Mar. 2015 — Jun. 2015",
@@ -55,11 +55,11 @@ export function ExperienceTimeline() {
           Trayectoria
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          Un recorrido construido paso a paso
+          El camino hasta aquí
         </h2>
         <p className="mx-auto mt-4 max-w-lg text-sm text-[var(--muted)]">
-          Resumen de mi trayectoria profesional. Para el detalle completo de
-          cargos y fechas, la mejor fuente es mi perfil de LinkedIn.
+          Esto es un resumen. Si quieres el detalle con pelos y señales,
+          fechas incluidas, está en mi LinkedIn.
         </p>
       </RevealOnScroll>
 
@@ -86,7 +86,7 @@ export function ExperienceTimeline() {
           rel="noopener noreferrer"
           className="text-sm font-medium text-[var(--accent)] underline underline-offset-4 hover:opacity-80"
         >
-          Ver perfil completo en LinkedIn →
+          Todo el detalle, en LinkedIn →
         </a>
       </RevealOnScroll>
     </section>

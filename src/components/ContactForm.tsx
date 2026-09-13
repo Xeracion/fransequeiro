@@ -38,11 +38,11 @@ export function ContactForm() {
           Contacto
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          Hablemos de tu próximo proyecto
+          ¿Hablamos de tu proyecto?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-sm text-[var(--muted)]">
-          Cuéntame en qué estás pensando y te respondo personalmente en menos
-          de 48 horas.
+          Cuéntame qué tienes en la cabeza. Te respondo yo, en persona, en
+          menos de 48 horas.
         </p>
       </RevealOnScroll>
 
@@ -89,7 +89,7 @@ export function ContactForm() {
               required
               rows={4}
               className="w-full resize-none rounded-lg border border-[var(--border)] bg-[var(--surface-2)] px-4 py-2.5 text-sm outline-none transition-colors focus:border-[var(--accent)]"
-              placeholder="Cuéntame sobre tu proyecto..."
+              placeholder="¿Qué tienes entre manos?"
             />
           </div>
 
@@ -120,18 +120,18 @@ export function ContactForm() {
               className="flex items-center gap-2 rounded-full bg-[var(--foreground)] px-6 py-2.5 text-sm font-medium text-[var(--background)] transition-opacity disabled:opacity-60"
             >
               <Send size={14} />
-              {status === "sending" ? "Enviando..." : "Enviar mensaje"}
+              {status === "sending" ? "Enviando..." : "Enviar"}
             </motion.button>
           </div>
 
           {status === "sent" && (
             <p className="mt-4 text-center text-sm text-[var(--accent)]">
-              Gracias, tu mensaje ha sido enviado. Te responderé pronto.
+              Recibido. Te escribo pronto.
             </p>
           )}
           {status === "error" && (
             <p className="mt-4 text-center text-sm text-red-500">
-              Algo ha ido mal. Prueba de nuevo o escríbeme directamente por
+              Algo se ha torcido. Prueba otra vez o escríbeme directamente al
               email.
             </p>
           )}

@@ -17,42 +17,42 @@ const services = [
     icon: Globe2,
     title: "Gestión de proyectos europeos",
     description:
-      "Diseño, financiación y coordinación de proyectos internacionales, de la idea a la ejecución sobre el terreno.",
+      "De la idea al dinero, y del dinero a algo que pasa de verdad sobre el terreno. Sin atajos.",
     className: "md:col-span-2",
   },
   {
     icon: Users,
     title: "Movilidad e intercambio juvenil",
     description:
-      "Programas que conectan a jóvenes de distintos países para aprender, colaborar y crecer juntos.",
+      "Jóvenes de países distintos, en la misma sala, aprendiendo unos de otros.",
     className: "",
   },
   {
     icon: Leaf,
     title: "Regeneración rural",
     description:
-      "Iniciativas que demuestran que lo local también puede mover Europa, sin necesidad de estar en una capital.",
+      "La prueba de que no hace falta vivir en una capital para mover algo grande.",
     className: "",
   },
   {
     icon: Compass,
     title: "Liderazgo comunitario",
     description:
-      "Acompañamiento a equipos y colectivos para detectar ideas con potencial y llevarlas a la práctica.",
+      "Ayudo a equipos y colectivos a coger una idea con potencial y llevarla a la práctica. Sin quedarse en la teoría.",
     className: "md:col-span-2",
   },
   {
     icon: Mic,
     title: "Oratoria y storytelling",
     description:
-      "Formación en comunicación y narrativa para que las ideas lleguen con fuerza a quien las necesita escuchar.",
+      "Para que tus ideas lleguen con fuerza a quien de verdad necesita escucharlas.",
     className: "",
   },
   {
     icon: HeartHandshake,
     title: "Educación no formal e interculturalidad",
     description:
-      "Metodologías de aprendizaje vivencial para migración, activismo juvenil y comunicación entre culturas.",
+      "Aprender haciendo, no leyendo. Migración, activismo juvenil, culturas que se cruzan y funcionan.",
     className: "md:col-span-3",
   },
 ];
@@ -65,7 +65,7 @@ export function BentoServices() {
           Servicios
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          Proyectos que conectan lo local con lo europeo
+          Lo que hago (y por qué funciona)
         </h2>
       </RevealOnScroll>
 
