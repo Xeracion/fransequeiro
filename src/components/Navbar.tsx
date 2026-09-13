@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ThemeToggle } from "./ThemeToggle";
+import { Logo } from "./Logo";
 
 const links = [
   { href: "#sobre-mi", label: "Sobre mí" },
@@ -35,11 +36,8 @@ export function Navbar() {
             : "bg-[var(--surface)]/40 backdrop-blur-sm"
         }`}
       >
-        <a
-          href="#top"
-          className="font-[family-name:var(--font-display)] text-sm font-medium tracking-tight italic"
-        >
-          Fran Sequeiro
+        <a href="#top" aria-label="Fran Sequeiro" className="text-[var(--foreground)]">
+          <Logo className="h-5 w-auto" />
         </a>
 
         <div className="hidden items-center gap-6 md:flex">
