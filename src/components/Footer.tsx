@@ -11,7 +11,7 @@ export function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="mailto:hola@fransequeiro.com"
+            href="mailto:fsequeiro@gmail.com"
             aria-label="Email"
             className="text-[var(--muted)] transition-colors hover:text-[var(--foreground)]"
           >

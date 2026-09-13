@@ -5,25 +5,45 @@ import { RevealOnScroll } from "./RevealOnScroll";
 
 const milestones = [
   {
-    period: "Hoy",
-    role: "Consultor empresarial independiente",
-    org: "Fran Sequeiro",
+    period: "Sept. 2013 — Presente",
+    role: "CEO",
+    org: "Xeración · Ferrol",
     description:
-      "Acompaño a fundadores y equipos directivos en estrategia, desarrollo organizacional y crecimiento, con proyectos propios enfocados en negocios con propósito.",
+      "Detectar una idea con potencial de mejorar el entorno, validarla con el equipo, adaptarla a la realidad local, tejer las alianzas y recursos necesarios, y ponerla en práctica. Más de 15 proyectos europeos sobre medio ambiente, liderazgo comunitario, oratoria, storytelling, migración y activismo juvenil.",
   },
   {
-    period: "Trayectoria",
-    role: "Roles de dirección y consultoría",
-    org: "Sector empresarial",
-    description:
-      "Más de una década en posiciones de liderazgo y consultoría, combinando gestión de negocio, desarrollo de equipos y proyectos de transformación.",
+    period: "Mar. 2015 — Jun. 2015",
+    role: "Project Assistant",
+    org: "EprojectConsult · Barcellona Pozzo di Gotto (Italia)",
+    description: "Gestión y coordinación de proyectos europeos.",
   },
   {
-    period: "Formación",
-    role: "Desarrollo continuo",
-    org: "Consultoría, liderazgo y desarrollo personal",
+    period: "Sept. 2012 — Ago. 2013",
+    role: "Asistente de proyecto",
+    org: "FERSO Foundation",
     description:
-      "Formación constante en estrategia empresarial, coaching y desarrollo organizacional, aplicada directamente a cada proyecto con clientes.",
+      "Gestor de proyectos juveniles internacionales, community manager y formador.",
+  },
+  {
+    period: "Nov. 2010 — Sept. 2012",
+    role: "Project Manager",
+    org: "AEGEE",
+    description:
+      "Relaciones con socios extranjeros, gestión conjunta de proyectos juveniles, selección de participantes y organización logística.",
+  },
+  {
+    period: "Sept. 2010 — Ene. 2011",
+    role: "Webmaster",
+    org: "Universidade da Coruña · Oficina de Relaciones Internacionales",
+    description:
+      "Actualización de contenidos, migración de sistemas, informes estadísticos y programación en Dreamweaver.",
+  },
+  {
+    period: "Mar. 2007 — Jun. 2007",
+    role: "Comercial",
+    org: "Caixa Galicia · Delegación de Xuvia",
+    description:
+      "Trato con clientes, venta de productos financieros y contabilidad bancaria.",
   },
 ];
 
@@ -45,7 +65,7 @@ export function ExperienceTimeline() {
 
       <div className="relative border-l border-[var(--border)] pl-8">
         {milestones.map((m, i) => (
-          <RevealOnScroll key={m.role} delay={i * 0.1} className="relative mb-12 last:mb-0">
+          <RevealOnScroll key={`${m.role}-${m.period}`} delay={i * 0.06} className="relative mb-12 last:mb-0">
             <span className="absolute top-1 -left-[41px] flex h-6 w-6 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--surface)]">
               <Briefcase size={12} className="text-[var(--accent)]" />
             </span>

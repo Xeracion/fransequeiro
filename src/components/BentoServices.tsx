@@ -2,57 +2,57 @@
 
 import { motion } from "framer-motion";
 import {
-  Compass,
+  Globe2,
   Users,
-  TrendingUp,
-  Puzzle,
-  Target,
-  Sparkles,
+  Leaf,
+  Mic,
+  Compass,
+  HeartHandshake,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { RevealOnScroll } from "./RevealOnScroll";
 
 const services = [
   {
-    icon: Compass,
-    title: "Estrategia con propósito",
+    icon: Globe2,
+    title: "Gestión de proyectos europeos",
     description:
-      "Diagnóstico y diseño de la hoja de ruta del negocio, alineando visión, modelo de negocio y objetivos financieros.",
+      "Diseño, financiación y coordinación de proyectos internacionales, de la idea a la ejecución sobre el terreno.",
     className: "md:col-span-2",
   },
   {
     icon: Users,
-    title: "Desarrollo de equipos",
+    title: "Movilidad e intercambio juvenil",
     description:
-      "Acompañamiento a líderes y equipos para tomar decisiones mejor y trabajar con más confianza.",
+      "Programas que conectan a jóvenes de distintos países para aprender, colaborar y crecer juntos.",
     className: "",
   },
   {
-    icon: TrendingUp,
-    title: "Crecimiento y escalado",
+    icon: Leaf,
+    title: "Regeneración rural",
     description:
-      "Procesos y estructura para escalar sin perder la esencia que hizo funcionar el negocio desde el inicio.",
+      "Iniciativas que demuestran que lo local también puede mover Europa, sin necesidad de estar en una capital.",
     className: "",
   },
   {
-    icon: Puzzle,
-    title: "Diseño organizacional",
+    icon: Compass,
+    title: "Liderazgo comunitario",
     description:
-      "Roles, procesos y cultura pensados para que las personas y el negocio crezcan en la misma dirección.",
+      "Acompañamiento a equipos y colectivos para detectar ideas con potencial y llevarlas a la práctica.",
     className: "md:col-span-2",
   },
   {
-    icon: Target,
-    title: "Mentoring ejecutivo",
+    icon: Mic,
+    title: "Oratoria y storytelling",
     description:
-      "Sesiones 1:1 para fundadores y directivos que necesitan una mirada externa y honesta.",
+      "Formación en comunicación y narrativa para que las ideas lleguen con fuerza a quien las necesita escuchar.",
     className: "",
   },
   {
-    icon: Sparkles,
-    title: "Innovación y nuevos negocios",
+    icon: HeartHandshake,
+    title: "Educación no formal e interculturalidad",
     description:
-      "Validación de ideas y modelos de negocio antes de invertir tiempo y recursos en ellos.",
+      "Metodologías de aprendizaje vivencial para migración, activismo juvenil y comunicación entre culturas.",
     className: "md:col-span-3",
   },
 ];
@@ -65,7 +65,7 @@ export function BentoServices() {
           Servicios
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          Soluciones a la medida de cada negocio
+          Proyectos que conectan lo local con lo europeo
         </h2>
       </RevealOnScroll>
 

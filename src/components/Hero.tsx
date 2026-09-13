@@ -41,7 +41,7 @@ export function Hero() {
           variants={item}
           className="text-balance font-[family-name:var(--font-display)] text-4xl leading-[1.08] font-light tracking-tight sm:text-6xl md:text-7xl"
         >
-          Consultor empresarial
+          Gestor de proyectos europeos
           <br />
           <span className="italic text-[var(--accent)]">e ingeniero de sueños</span>
         </motion.h1>
@@ -50,9 +50,9 @@ export function Hero() {
           variants={item}
           className="mt-6 max-w-xl text-balance text-base text-[var(--muted)] sm:text-lg"
         >
-          Ayudo a personas y organizaciones a diseñar negocios con propósito,
-          donde la estrategia, las personas y los resultados crecen en la
-          misma dirección.
+          CEO de Xeración, en Ferrol. Diseño proyectos internacionales de
+          movilidad juvenil y regeneración rural que conectan lo local con lo
+          europeo.
         </motion.p>
 
         <motion.div

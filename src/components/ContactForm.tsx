@@ -96,11 +96,11 @@ export function ContactForm() {
           <div className="mt-6 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
             <div className="flex items-center gap-4">
               <a
-                href="mailto:hola@fransequeiro.com"
+                href="mailto:fsequeiro@gmail.com"
                 className="flex items-center gap-2 text-sm text-[var(--muted)] transition-colors hover:text-[var(--foreground)]"
               >
                 <Mail size={15} />
-                hola@fransequeiro.com
+                fsequeiro@gmail.com
               </a>
               <a
                 href="https://www.linkedin.com/in/fransequeiro/"

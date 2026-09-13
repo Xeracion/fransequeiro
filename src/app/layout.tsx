@@ -17,9 +17,9 @@ const fraunces = Fraunces({
 });
 
 const siteUrl = "https://fransequeiro.com";
-const title = "Fran Sequeiro — Consultor Empresarial & Dreams Engineer";
+const title = "Fran Sequeiro — EU Project Manager & Dreams Engineer";
 const description =
-  "Fran Sequeiro ayuda a empresas y equipos a construir negocios con propósito. Consultoría estratégica, acompañamiento y diseño de organizaciones donde las personas y los resultados crecen juntos.";
+  "Fran Sequeiro, CEO de Xeración en Ferrol, diseña proyectos europeos de movilidad juvenil, regeneración rural y liderazgo comunitario que conectan lo local con lo europeo.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -27,11 +27,13 @@ export const metadata: Metadata = {
   description,
   keywords: [
     "Fran Sequeiro",
-    "consultor empresarial",
+    "Xeración",
+    "EU project manager",
     "dreams engineer",
-    "consultoría estratégica",
-    "desarrollo organizacional",
-    "liderazgo",
+    "movilidad juvenil",
+    "regeneración rural",
+    "proyectos europeos",
+    "Ferrol",
   ],
   authors: [{ name: "Fran Sequeiro" }],
   openGraph: {
