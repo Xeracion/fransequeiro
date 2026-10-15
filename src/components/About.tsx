@@ -11,32 +11,32 @@ export function About() {
 
       <RevealOnScroll delay={0.1} className="mt-6">
         <h2 className="text-balance font-[family-name:var(--font-display)] text-2xl leading-snug font-light sm:text-3xl md:text-4xl">
-          Llevo diez años juntando a gente de países distintos. Para que
-          hagan cosas que de verdad importan.
+          Más de 15 proyectos europeos gestionados de principio a fin. Y
+          ninguno se quedó en un cajón.
         </h2>
       </RevealOnScroll>
 
       <RevealOnScroll delay={0.2} className="mt-8 space-y-5 text-[var(--muted)]">
         <p>
-          A esto se le llama gestión de proyectos europeos. Yo lo llamo
-          diseñar experiencias que cambian la forma de ver el mundo. Más de
-          15 proyectos internacionales. Medio ambiente, liderazgo
-          comunitario, oratoria, storytelling, migración, activismo juvenil.
+          Ganar la financiación es solo el principio. Después vienen los
+          socios en tres países distintos, las movilidades que hay que
+          cuadrar, los informes que la agencia espera en su formato exacto y
+          la justificación económica que no admite errores. Ahí es donde
+          entro yo.
         </p>
         <p>
-          Trabajo desde Ferrol, en el borde atlántico de Galicia. Sin oficina
-          en ninguna capital dirijo{" "}
-          <strong className="text-[var(--foreground)]">Xeración</strong>, y
-          cada proyecto demuestra lo mismo: Europa también se mueve desde
-          aquí. Educación no formal, comunicación intercultural y mucha
-          logística creativa. Así de simple.
+          Trabajo desde Ferrol, en el borde atlántico de Galicia, dirigiendo{" "}
+          <strong className="text-[var(--foreground)]">Xeración</strong>.
+          Erasmus+, Interreg, Creative Europe, LIFE: distintos programas,
+          misma lógica de gestión. Socios, plazos, indicadores,
+          comunicación, cierre. Lo he hecho una y otra vez, y sé dónde se
+          atascan los proyectos antes de que se atasquen.
         </p>
         <p>
-          Me llamo a mí mismo <em>dreams engineer</em>: cojo la intuición, el
-          propósito y las ganas de un equipo, y las convierto en proyectos
-          reales. Y <em>smile hunter</em>, porque un proyecto solo funciona
-          si deja sonrisas de verdad por el camino. ¿Crees que lo local y lo
-          internacional pueden ir de la mano? Hablemos.
+          Me llamo a mí mismo <em>dreams engineer</em>: cojo un proyecto
+          aprobado sobre el papel y lo convierto en algo que pasa de verdad,
+          con cada socio remando en la misma dirección. ¿Tienes un proyecto
+          europeo aprobado y necesitas quien lo lleve? Hablemos.
         </p>
       </RevealOnScroll>
     </section>

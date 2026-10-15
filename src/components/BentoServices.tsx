@@ -2,57 +2,57 @@
 
 import { motion } from "framer-motion";
 import {
-  Globe2,
+  ClipboardCheck,
   Users,
-  Leaf,
-  Mic,
-  Compass,
-  HeartHandshake,
+  Receipt,
+  Plane,
+  Megaphone,
+  LineChart,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { RevealOnScroll } from "./RevealOnScroll";
 
 const services = [
   {
-    icon: Globe2,
-    title: "Gestión de proyectos europeos",
+    icon: ClipboardCheck,
+    title: "Gestión integral del proyecto",
     description:
-      "De la idea al dinero, y del dinero a algo que pasa de verdad sobre el terreno. Sin atajos.",
+      "Desde el kick-off hasta el informe final. Plazos, entregables, work packages. Todo en su sitio, siempre.",
     className: "md:col-span-2",
   },
   {
     icon: Users,
-    title: "Movilidad e intercambio juvenil",
+    title: "Coordinación de socios",
     description:
-      "Jóvenes de países distintos, en la misma sala, aprendiendo unos de otros.",
+      "Varios países, un solo ritmo. Me encargo de que todos remen a la vez.",
     className: "",
   },
   {
-    icon: Leaf,
-    title: "Regeneración rural",
+    icon: Receipt,
+    title: "Justificación económica",
     description:
-      "La prueba de que no hace falta vivir en una capital para mover algo grande.",
+      "Informes a la agencia nacional o ejecutiva, en su formato exacto. Sin sustos en la auditoría.",
     className: "",
   },
   {
-    icon: Compass,
-    title: "Liderazgo comunitario",
+    icon: Plane,
+    title: "Movilidad y logística",
     description:
-      "Ayudo a equipos y colectivos a coger una idea con potencial y llevarla a la práctica. Sin quedarse en la teoría.",
+      "Intercambios, formaciones, encuentros transnacionales. La parte que falla si nadie la gestiona de verdad.",
     className: "md:col-span-2",
   },
   {
-    icon: Mic,
-    title: "Oratoria y storytelling",
+    icon: Megaphone,
+    title: "Comunicación y visibilidad",
     description:
-      "Para que tus ideas lleguen con fuerza a quien de verdad necesita escucharlas.",
+      "Lo que pide la convocatoria sobre difusión, cumplido sin dolores de cabeza.",
     className: "",
   },
   {
-    icon: HeartHandshake,
-    title: "Educación no formal e interculturalidad",
+    icon: LineChart,
+    title: "Indicadores e impacto",
     description:
-      "Aprender haciendo, no leyendo. Migración, activismo juvenil, culturas que se cruzan y funcionan.",
+      "Mido lo que el proyecto promete desde el principio, para poder demostrarlo al final.",
     className: "md:col-span-3",
   },
 ];
@@ -65,7 +65,7 @@ export function BentoServices() {
           Servicios
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          Lo que hago (y por qué funciona)
+          Tu proyecto ya está aprobado. Esto es lo que hace falta ahora
         </h2>
       </RevealOnScroll>
 

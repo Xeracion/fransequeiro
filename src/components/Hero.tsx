@@ -34,25 +34,26 @@ export function Hero() {
           className="mb-6 flex items-center gap-2 rounded-full border border-[var(--border)] bg-[var(--surface)]/60 px-4 py-1.5 text-xs text-[var(--muted)] backdrop-blur-sm"
         >
           <Sparkles size={13} className="text-[var(--accent-2)]" />
-          Dreams engineer · smile hunter
+          Erasmus+ · Interreg · Creative Europe · LIFE
         </motion.div>
 
         <motion.h1
           variants={item}
           className="text-balance font-[family-name:var(--font-display)] text-4xl leading-[1.08] font-light tracking-tight sm:text-6xl md:text-7xl"
         >
-          Muevo proyectos
+          Te aprobaron el proyecto.
           <br />
-          <span className="italic text-[var(--accent)]">que mueven Europa</span>
+          <span className="italic text-[var(--accent)]">Yo lo pongo en marcha.</span>
         </motion.h1>
 
         <motion.p
           variants={item}
           className="mt-6 max-w-xl text-balance text-base text-[var(--muted)] sm:text-lg"
         >
-          Soy Fran, CEO de Xeración. Trabajo desde Ferrol, no desde una
-          capital, y eso no me frena para nada: movilidad juvenil,
-          regeneración rural, proyectos que sí llegan a pasar.
+          Soy Fran, CEO de Xeración. Gestiono proyectos europeos desde la
+          aprobación hasta el informe final: socios, movilidades,
+          justificación económica, plazos. Tú ya ganaste la financiación. Que
+          no se pierda en el camino.
         </motion.p>
 
         <motion.div
@@ -63,7 +64,7 @@ export function Hero() {
             href="#contacto"
             className="rounded-full bg-[var(--foreground)] px-7 py-3 text-sm font-medium text-[var(--background)] transition-transform hover:scale-[1.03] active:scale-[0.98]"
           >
-            Hablamos
+            Cuéntame tu proyecto
           </a>
           <a
             href="https://www.linkedin.com/in/fransequeiro/"

@@ -38,11 +38,11 @@ export function ContactForm() {
           Contacto
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          ¿Hablamos de tu proyecto?
+          ¿Te han aprobado un proyecto europeo?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-sm text-[var(--muted)]">
-          Cuéntame qué tienes en la cabeza. Te respondo yo, en persona, en
-          menos de 48 horas.
+          Cuéntame qué programa es y en qué fase estáis. Te respondo yo, en
+          persona, en menos de 48 horas.
         </p>
       </RevealOnScroll>
 
@@ -89,7 +89,7 @@ export function ContactForm() {
               required
               rows={4}
               className="w-full resize-none rounded-lg border border-[var(--border)] bg-[var(--surface-2)] px-4 py-2.5 text-sm outline-none transition-colors focus:border-[var(--accent)]"
-              placeholder="¿Qué tienes entre manos?"
+              placeholder="¿Qué programa es y en qué fase estáis?"
             />
           </div>
 

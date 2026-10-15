@@ -17,9 +17,9 @@ const fraunces = Fraunces({
 });
 
 const siteUrl = "https://fransequeiro.com";
-const title = "Fran Sequeiro — EU Project Manager & Dreams Engineer";
+const title = "Fran Sequeiro — Gestión de proyectos europeos (Erasmus+, Interreg, Creative Europe, LIFE)";
 const description =
-  "Fran Sequeiro, CEO de Xeración en Ferrol, diseña proyectos europeos de movilidad juvenil, regeneración rural y liderazgo comunitario que conectan lo local con lo europeo.";
+  "¿Te han aprobado un proyecto europeo? Fran Sequeiro, CEO de Xeración, lo gestiona de principio a fin: socios, movilidades, justificación económica e informes. Más de 15 proyectos ejecutados.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -28,11 +28,13 @@ export const metadata: Metadata = {
   keywords: [
     "Fran Sequeiro",
     "Xeración",
+    "gestión de proyectos europeos",
     "EU project manager",
-    "dreams engineer",
-    "movilidad juvenil",
-    "regeneración rural",
-    "proyectos europeos",
+    "Erasmus+",
+    "Interreg",
+    "Creative Europe",
+    "LIFE",
+    "justificación económica proyectos europeos",
     "Ferrol",
   ],
   authors: [{ name: "Fran Sequeiro" }],
