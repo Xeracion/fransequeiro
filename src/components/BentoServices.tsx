@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import {
+  Lightbulb,
   ClipboardCheck,
   Users,
   Receipt,
@@ -11,6 +12,13 @@ import {
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { RevealOnScroll } from "./RevealOnScroll";
+
+const preAward = {
+  icon: Lightbulb,
+  title: "¿Quieres solicitar financiación europea y no sabes cómo empezar?",
+  description:
+    "Yo te ayudo. Busco la convocatoria adecuada para tu idea (Erasmus+, Interreg, Creative Europe, LIFE), diseño la propuesta y preparo la solicitud para que llegue con todas las de ganar.",
+};
 
 const services = [
   {
@@ -65,8 +73,44 @@ export function BentoServices() {
           Servicios
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          Tu proyecto ya está aprobado. Esto es lo que hace falta ahora
+          Antes y después de la aprobación
         </h2>
+      </RevealOnScroll>
+
+      <RevealOnScroll className="mb-6">
+        <p className="text-sm font-medium text-[var(--muted)]">
+          Aún no tienes financiación:
+        </p>
+      </RevealOnScroll>
+
+      <RevealOnScroll className="mb-4">
+        <motion.div
+          whileHover={{ y: -4 }}
+          transition={{ duration: 0.25, ease: "easeOut" }}
+          className="group relative overflow-hidden rounded-2xl border border-[var(--accent)]/30 bg-[var(--surface)] p-7"
+        >
+          <div
+            className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+            style={{
+              background:
+                "radial-gradient(400px circle at var(--x, 50%) var(--y, 50%), color-mix(in srgb, var(--accent) 12%, transparent), transparent 70%)",
+            }}
+            onMouseMove={(e) => {
+              const rect = e.currentTarget.getBoundingClientRect();
+              e.currentTarget.style.setProperty("--x", `${e.clientX - rect.left}px`);
+              e.currentTarget.style.setProperty("--y", `${e.clientY - rect.top}px`);
+            }}
+          />
+          <preAward.icon size={22} className="relative mb-5 text-[var(--accent)]" />
+          <h3 className="relative mb-2 text-lg font-medium">{preAward.title}</h3>
+          <p className="relative text-sm text-[var(--muted)]">{preAward.description}</p>
+        </motion.div>
+      </RevealOnScroll>
+
+      <RevealOnScroll className="mb-6 mt-10">
+        <p className="text-sm font-medium text-[var(--muted)]">
+          Ya tienes el proyecto aprobado:
+        </p>
       </RevealOnScroll>
 
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">

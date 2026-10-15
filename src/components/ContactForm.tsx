@@ -38,10 +38,10 @@ export function ContactForm() {
           Contacto
         </span>
         <h2 className="mt-4 text-balance font-[family-name:var(--font-display)] text-3xl font-light sm:text-4xl">
-          ¿Te han aprobado un proyecto europeo?
+          ¿Buscas financiación o ya la tienes aprobada?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-sm text-[var(--muted)]">
-          Cuéntame qué programa es y en qué fase estáis. Te respondo yo, en
+          Cuéntame en qué fase estáis y qué programa es. Te respondo yo, en
           persona, en menos de 48 horas.
         </p>
       </RevealOnScroll>

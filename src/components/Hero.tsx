@@ -50,10 +50,10 @@ export function Hero() {
           variants={item}
           className="mt-6 max-w-xl text-balance text-base text-[var(--muted)] sm:text-lg"
         >
-          Soy Fran, CEO de Xeración. Gestiono proyectos europeos desde la
-          aprobación hasta el informe final: socios, movilidades,
-          justificación económica, plazos. Tú ya ganaste la financiación. Que
-          no se pierda en el camino.
+          Soy Fran, CEO de Xeración. Te ayudo a conseguir financiación
+          europea si aún no la tienes, y gestiono el proyecto de principio a
+          fin si ya te la aprobaron: socios, movilidades, justificación
+          económica, plazos.
         </motion.p>
 
         <motion.div

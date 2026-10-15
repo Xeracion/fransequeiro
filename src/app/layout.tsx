@@ -17,9 +17,9 @@ const fraunces = Fraunces({
 });
 
 const siteUrl = "https://fransequeiro.com";
-const title = "Fran Sequeiro — Gestión de proyectos europeos (Erasmus+, Interreg, Creative Europe, LIFE)";
+const title = "Fran Sequeiro — Solicitud y gestión de proyectos europeos (Erasmus+, Interreg, Creative Europe, LIFE)";
 const description =
-  "¿Te han aprobado un proyecto europeo? Fran Sequeiro, CEO de Xeración, lo gestiona de principio a fin: socios, movilidades, justificación económica e informes. Más de 15 proyectos ejecutados.";
+  "Fran Sequeiro, CEO de Xeración, te ayuda a solicitar financiación europea (Erasmus+, Interreg, Creative Europe, LIFE) y gestiona tu proyecto aprobado de principio a fin: socios, movilidades, justificación económica e informes. Más de 15 proyectos ejecutados.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   keywords: [
     "Fran Sequeiro",
     "Xeración",
+    "solicitar financiación europea",
+    "cómo solicitar subvenciones europeas",
+    "redacción de propuestas europeas",
     "gestión de proyectos europeos",
     "EU project manager",
     "Erasmus+",
