@@ -6,10 +6,10 @@ import { ThemeToggle } from "./ThemeToggle";
 import { Logo } from "./Logo";
 
 const links = [
-  { href: "#sobre-mi", label: "Sobre mí" },
-  { href: "#servicios", label: "Servicios" },
-  { href: "#trayectoria", label: "Trayectoria" },
-  { href: "#contacto", label: "Contacto" },
+  { href: "/#sobre-mi", label: "Sobre mí" },
+  { href: "/#servicios", label: "Servicios" },
+  { href: "/#trayectoria", label: "Trayectoria" },
+  { href: "/#contacto", label: "Contacto" },
 ];
 
 export function Navbar() {
@@ -36,7 +36,7 @@ export function Navbar() {
             : "bg-[var(--surface)]/40 backdrop-blur-sm"
         }`}
       >
-        <a href="#top" aria-label="Fran Sequeiro" className="text-[var(--foreground)]">
+        <a href="/#top" aria-label="Fran Sequeiro" className="text-[var(--foreground)]">
           <Logo className="h-12 w-auto" />
         </a>
 
@@ -54,7 +54,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-3">
           <a
-            href="#contacto"
+            href="/#contacto"
             className="hidden rounded-full bg-[var(--foreground)] px-4 py-1.5 text-sm font-medium text-[var(--background)] transition-opacity hover:opacity-85 sm:inline-block"
           >
             Hablemos
